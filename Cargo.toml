@@ -1,0 +1,16 @@
+[package]
+name = "task_manager_cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Success Aje <successaje7@gmail.com>"]
+description = "A simple CLI tool to manage tasks"
+
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+
+[source.crates-io]
+index = "https://github.com/rust-lang/crates.io-index" # I set the source to the official github index
+
+[http]
+proxy = "" # leaving this as a blank string resets proxy to default

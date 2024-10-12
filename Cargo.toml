@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Success Aje <successaje7@gmail.com>"]
 description = "A simple CLI tool to manage tasks"
+repository = "https://github.com/successaje/Task_Manager"
+license = "MIT"
 
 
 [dependencies]
